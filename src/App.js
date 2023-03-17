@@ -1,4 +1,5 @@
 import FragmentComponent from "./components/FragmentComponent";
+import Modal from "./components/Modal";
 import Parent from "./components/Parent";
 import Table from "./components/Table";
 
@@ -8,6 +9,7 @@ function App() {
       {/* <FragmentComponent /> */}
       {/* <Table /> */}
       <Parent />
+      <Modal />
     </div>
   );
 }

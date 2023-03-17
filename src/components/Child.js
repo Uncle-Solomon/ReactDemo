@@ -5,4 +5,4 @@ const Child = ({ count }) => {
   return <div>Child count is: {count}</div>;
 };
 
-export default Child;
+export default React.memo(Child);
